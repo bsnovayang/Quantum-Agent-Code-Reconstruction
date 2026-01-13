@@ -67,7 +67,7 @@ function extractTitle(content) {
   const lines = content.split(/\r?\n/);
   let mainTitle = '';
   let subTitle = '';
-  
+
   for (const line of lines) {
     const h1Match = line.match(/^#\s+(.+)$/);
     if (h1Match) {
@@ -80,7 +80,7 @@ function extractTitle(content) {
       break;
     }
   }
-  
+
   return { mainTitle, subTitle };
 }
 
@@ -90,23 +90,23 @@ function extractTitle(content) {
 function mdToHtml(content) {
   let html = '';
   const lines = content.split(/\r?\n/);
-  
+
   for (const line of lines) {
     const trimmed = line.trim();
     if (!trimmed) continue;
-    
+
     // 跳過標題
     if (trimmed.startsWith('#')) continue;
-    
+
     // 轉換格式
     let processed = trimmed
       .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
       .replace(/\*(.+?)\*/g, '<em>$1</em>')
       .replace(/`(.+?)`/g, '<code>$1</code>');
-    
+
     html += `      <p>${processed}</p>\n`;
   }
-  
+
   return html;
 }
 
@@ -117,12 +117,12 @@ function parseVolumeFolderName(folderName) {
   // Vol_01_Ghost_Signal -> { num: 1, id: 'ghost-signal', title: 'Ghost Signal' }
   const match = folderName.match(/Vol_(\d+)_(.+)/);
   if (!match) return null;
-  
+
   const num = parseInt(match[1]);
   const rawName = match[2];
   const id = `vol-${num.toString().padStart(2, '0')}`;
   const title = rawName.replace(/_/g, ' ');
-  
+
   return { num, id, title, folderName };
 }
 
@@ -131,25 +131,25 @@ function parseVolumeFolderName(folderName) {
  */
 function scanPhase(phaseConfig) {
   const phaseSourcePath = path.join(config.sourceDir, phaseConfig.sourceFolder);
-  
+
   if (!fs.existsSync(phaseSourcePath)) {
     console.log(`  [跳過] ${phaseConfig.sourceFolder} 不存在`);
     return null;
   }
-  
+
   const volumes = [];
   const entries = fs.readdirSync(phaseSourcePath, { withFileTypes: true });
-  
+
   for (const entry of entries) {
     if (!entry.isDirectory()) continue;
     if (!entry.name.startsWith('Vol_')) continue;
-    
+
     const volInfo = parseVolumeFolderName(entry.name);
     if (!volInfo) continue;
-    
+
     const volPath = path.join(phaseSourcePath, entry.name);
     const chapters = scanVolumeChapters(volPath);
-    
+
     // 讀取 Outline 獲取描述
     const outlinePath = path.join(volPath, `Vol_${volInfo.num.toString().padStart(2, '0')}_Outline.md`);
     let description = '';
@@ -158,7 +158,7 @@ function scanPhase(phaseConfig) {
       const descMatch = outlineContent.match(/不存在的樓層|幽靈訊號|記憶販賣者|[^#\n]+/);
       // 簡單取第一段非標題文字作為描述
     }
-    
+
     volumes.push({
       id: volInfo.id,
       num: volInfo.num,
@@ -169,10 +169,10 @@ function scanPhase(phaseConfig) {
       chapters
     });
   }
-  
+
   // 按卷號排序
   volumes.sort((a, b) => a.num - b.num);
-  
+
   return {
     id: phaseConfig.id,
     title: phaseConfig.title,
@@ -188,17 +188,17 @@ function scanPhase(phaseConfig) {
 function scanVolumeChapters(volPath) {
   const chapters = [];
   const files = fs.readdirSync(volPath).filter(f => f.endsWith('.md'));
-  
+
   for (const file of files) {
     // 跳過 Outline 和其他非章節檔案
     if (file.includes('Outline') || file.includes('Summary') || file.includes('人設')) continue;
-    
+
     const filePath = path.join(volPath, file);
     const content = fs.readFileSync(filePath, 'utf-8');
     const { mainTitle, subTitle } = extractTitle(content);
-    
+
     let chapterId, displayTitle;
-    
+
     if (file.startsWith('00_Prologue')) {
       chapterId = 'prologue';
       displayTitle = mainTitle || '序章';
@@ -217,7 +217,7 @@ function scanVolumeChapters(volPath) {
         continue;
       }
     }
-    
+
     chapters.push({
       id: chapterId,
       title: displayTitle,
@@ -225,7 +225,7 @@ function scanVolumeChapters(volPath) {
       htmlFile: `${chapterId}.html`
     });
   }
-  
+
   // 排序
   chapters.sort((a, b) => {
     const order = { 'prologue': 0, 'epilogue': 999 };
@@ -233,7 +233,7 @@ function scanVolumeChapters(volPath) {
     const bOrder = order[b.id] ?? parseInt(b.id.replace(/[^\d]/g, ''));
     return aOrder - bOrder;
   });
-  
+
   return chapters;
 }
 
@@ -262,12 +262,12 @@ function generateChaptersJson(phasesData) {
     lastUpdated: new Date().toISOString(),
     phases: phasesData.filter(p => p !== null)
   };
-  
+
   const outputPath = path.join(config.outputDir, 'data', 'chapters.json');
   ensureDir(path.dirname(outputPath));
   fs.writeFileSync(outputPath, JSON.stringify(data, null, 2), 'utf-8');
   console.log(`[生成] ${outputPath}`);
-  
+
   return data;
 }
 
@@ -280,26 +280,26 @@ function generateChapterHtml(chapter, volume, phase, prevChapter, nextChapter) {
     phase.sourceFolder || config.phases.find(p => p.id === phase.id)?.sourceFolder,
     volume.sourceFolder
   );
-  
+
   const mdPath = path.join(volSourcePath, chapter.sourceFile);
   if (!fs.existsSync(mdPath)) {
     console.log(`  [跳過] ${mdPath} 不存在`);
     return null;
   }
-  
+
   const content = fs.readFileSync(mdPath, 'utf-8');
   const htmlContent = mdToHtml(content);
-  
+
   const prevHtml = prevChapter
     ? `<a href="${prevChapter.htmlFile}" class="nav-btn" data-nav="prev">&larr; 上一章</a>`
     : `<span class="nav-btn disabled">&larr; 上一章</span>`;
-  
+
   const nextHtml = nextChapter
     ? `<a href="${nextChapter.htmlFile}" class="nav-btn" data-nav="next">下一章 &rarr;</a>`
     : `<span class="nav-btn disabled">下一章 &rarr;</span>`;
-  
+
   const volLabel = `${volume.id.toUpperCase().replace('-', '.')} ${volume.title.toUpperCase()}`;
-  
+
   return `<!DOCTYPE html>
 <html lang="zh-TW">
 <head>
@@ -366,7 +366,7 @@ function generateVolumeIndex(volume, phase, prevVol, nextVol) {
   const prevHtml = prevVol
     ? `<a href="../${prevVol.id}/index.html" class="nav-btn">&larr; ${prevVol.id.replace('vol-', 'Vol.')}</a>`
     : `<span class="nav-btn disabled">&larr; 上一卷</span>`;
-  
+
   const nextHtml = nextVol
     ? `<a href="../${nextVol.id}/index.html" class="nav-btn">${nextVol.id.replace('vol-', 'Vol.')} &rarr;</a>`
     : `<span class="nav-btn disabled">下一卷 &rarr;</span>`;
@@ -461,10 +461,18 @@ function generatePhaseIndex(phase) {
     </div>
   </nav>
 
+  <!-- Phase Banner -->
+  <div class="banner">
+    <img src="../../images/covers/${phase.id}.jpg" alt="${phase.title} Banner"
+         onerror="this.src='../../images/banner.jpg'">
+    <div class="banner-overlay">
+      <h1 class="banner-title">${phase.title}</h1>
+      <p class="banner-subtitle">${phase.subtitle.toUpperCase()}</p>
+    </div>
+  </div>
+
   <main class="main-content">
-    <section class="hero" style="padding: 2rem;">
-      <h1 class="hero-title">${phase.title}</h1>
-      <p class="hero-subtitle">${phase.subtitle}</p>
+    <section class="hero" style="padding-top: 2rem;">
       <p class="hero-intro">${phase.description}</p>
     </section>
 
@@ -591,7 +599,7 @@ async function build() {
   console.log('========================================');
   console.log('  機僕駭客：量子特務 - 網站建置腳本');
   console.log('========================================\n');
-  
+
   // 1. 掃描所有 Phase
   console.log('[1/4] 掃描原始檔案...');
   const phasesData = [];
@@ -604,45 +612,45 @@ async function build() {
       console.log(`    發現 ${phaseData.volumes.length} 卷`);
     }
   }
-  
+
   // 2. 生成 JSON
   console.log('\n[2/4] 生成 chapters.json...');
   generateChaptersJson(phasesData);
-  
+
   // 3. 生成 HTML
   console.log('\n[3/4] 生成 HTML 檔案...');
-  
+
   for (const phase of phasesData) {
     if (!phase) continue;
-    
+
     // Phase 目錄
     const phaseDir = path.join(config.outputDir, 'phases', phase.id);
     ensureDir(phaseDir);
-    
+
     const phaseIndexHtml = generatePhaseIndex(phase);
     fs.writeFileSync(path.join(phaseDir, 'index.html'), phaseIndexHtml, 'utf-8');
     console.log(`  [Phase] ${phase.id}/index.html`);
-    
+
     // 各 Volume
     for (let vi = 0; vi < phase.volumes.length; vi++) {
       const volume = phase.volumes[vi];
       const prevVol = phase.volumes[vi - 1] || null;
       const nextVol = phase.volumes[vi + 1] || null;
-      
+
       const volDir = path.join(phaseDir, 'chapters', volume.id);
       ensureDir(volDir);
-      
+
       // Volume 目錄頁
       const volIndexHtml = generateVolumeIndex(volume, phase, prevVol, nextVol);
       fs.writeFileSync(path.join(volDir, 'index.html'), volIndexHtml, 'utf-8');
       console.log(`    [Volume] ${volume.id}/index.html`);
-      
+
       // 各章節
       for (let ci = 0; ci < volume.chapters.length; ci++) {
         const chapter = volume.chapters[ci];
         const prevCh = volume.chapters[ci - 1] || null;
         const nextCh = volume.chapters[ci + 1] || null;
-        
+
         const chapterHtml = generateChapterHtml(chapter, volume, phase, prevCh, nextCh);
         if (chapterHtml) {
           fs.writeFileSync(path.join(volDir, chapter.htmlFile), chapterHtml, 'utf-8');
@@ -651,13 +659,13 @@ async function build() {
       console.log(`      ${volume.chapters.length} 章節`);
     }
   }
-  
+
   // 4. 生成首頁
   console.log('\n[4/4] 生成首頁...');
   const homepageHtml = generateHomepage(phasesData);
   fs.writeFileSync(path.join(config.outputDir, 'index.html'), homepageHtml, 'utf-8');
   console.log('  [首頁] index.html');
-  
+
   console.log('\n========================================');
   console.log('  建置完成！');
   console.log('========================================');
