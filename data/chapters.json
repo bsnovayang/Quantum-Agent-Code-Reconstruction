@@ -1,7 +1,7 @@
 {
   "title": "機僕駭客：量子特務",
   "subtitle": "Quantum Agent: Code Reconstruction",
-  "lastUpdated": "2026-01-13T02:32:55.564Z",
+  "lastUpdated": "2026-01-13T03:16:41.797Z",
   "phases": [
     {
       "id": "phase-01",
@@ -19,157 +19,157 @@
           "chapters": [
             {
               "id": "prologue",
-              "title": "序章：故障的早晨",
+              "title": "序章：故障的早晨 (Prologue)",
               "sourceFile": "00_Prologue.md",
               "htmlFile": "prologue.html"
             },
             {
               "id": "ch01-01",
-              "title": "第一章：死神的廉價委託 (The Cheap Job) - 歡迎來到「深潛之藍」",
+              "title": "第一章：死神的廉價委託 (The Cheap Job) - Part 1：歡迎來到「深潛之藍」",
               "sourceFile": "01_Chapter1_Part1.md",
               "htmlFile": "ch01-01.html"
             },
             {
               "id": "ch01-02",
-              "title": "第一章：死神的廉價委託 (The Cheap Job) - 幽靈檔案",
+              "title": "第一章：死神的廉價委託 (The Cheap Job) - Part 2：接下委託",
               "sourceFile": "01_Chapter1_Part2.md",
               "htmlFile": "ch01-02.html"
             },
             {
               "id": "ch01-03",
-              "title": "第一章：死神的廉價委託 (The Cheap Job) - 暴力解法 (Brute Force Logic)",
+              "title": "第一章：死神的廉價委託 (The Cheap Job) - Part 3：娜諾的整備",
               "sourceFile": "01_Chapter1_Part3.md",
               "htmlFile": "ch01-03.html"
             },
             {
               "id": "ch01-04",
-              "title": "第一章：死神的廉價委託 (The Cheap Job) - 迷路的小女孩",
+              "title": "第一章：死神的廉價委託 (The Cheap Job) - Part 4：夜務局的盤查",
               "sourceFile": "01_Chapter1_Part4.md",
               "htmlFile": "ch01-04.html"
             },
             {
               "id": "ch02-01",
-              "title": "第二章：舊城區的迴響 (Echoes of the Old City) - 被遺忘的墓碑",
+              "title": "第二章：舊城區的迴響 (Echoes of the Old City) - Part 1：進入廢棄區",
               "sourceFile": "02_Chapter2_Part1.md",
               "htmlFile": "ch02-01.html"
             },
             {
               "id": "ch02-02",
-              "title": "第二章：舊城區的迴響 (Echoes of the Old City) - 進食禮儀 (Table Manners)",
+              "title": "第二章：舊城區的迴響 (Echoes of the Old City) - Part 2：變異數據體",
               "sourceFile": "02_Chapter2_Part2.md",
               "htmlFile": "ch02-02.html"
             },
             {
               "id": "ch02-03",
-              "title": "第二章：舊城區的迴響 (Echoes of the Old City) - 零號病房",
+              "title": "第二章：舊城區的迴響 (Echoes of the Old City) - Part 3：活體實驗的痕跡",
               "sourceFile": "02_Chapter2_Part3.md",
               "htmlFile": "ch02-03.html"
             },
             {
               "id": "ch02-04",
-              "title": "第二章：舊城區的迴響 (Echoes of the Old City) - 頭痛與閃回 (Headache)",
+              "title": "第二章：舊城區的迴響 (Echoes of the Old City) - Part 4：重疊的記憶",
               "sourceFile": "02_Chapter2_Part4.md",
               "htmlFile": "ch02-04.html"
             },
             {
               "id": "ch03-01",
-              "title": "第三章：邏輯覆寫 (Logic Override) - 壞掉的玩具",
+              "title": "第三章：不存在的管理者 (The Admin) - Part 1：防衛機甲ride)",
               "sourceFile": "03_Chapter3_Part1.md",
               "htmlFile": "ch03-01.html"
             },
             {
               "id": "ch03-02",
-              "title": "第三章：邏輯覆寫 (Logic Override) - 降維打擊 (Format C:)",
+              "title": "第三章：邏輯覆寫 (Logic Override) - Part 2：物理陷阱ride)",
               "sourceFile": "03_Chapter3_Part2.md",
               "htmlFile": "ch03-02.html"
             },
             {
               "id": "ch03-03",
-              "title": "第三章：邏輯覆寫 (Logic Override) - 戰利品 (Loot)",
+              "title": "第三章：邏輯覆寫 (Logic Override) - Part 3：娜諾受傷ride)",
               "sourceFile": "03_Chapter3_Part3.md",
               "htmlFile": "ch03-03.html"
             },
             {
               "id": "ch03-04",
-              "title": "第三章：邏輯覆寫 (Logic Override) - 被刪除的蛋糕",
+              "title": "第三章：邏輯覆寫 (Logic Override) - Part 4：工具與家人",
               "sourceFile": "03_Chapter3_Part4.md",
               "htmlFile": "ch03-04.html"
             },
             {
               "id": "ch04-01",
-              "title": "第四章：潘朵拉的硬碟 (Pandora's Drive) - 不受歡迎的掛號",
+              "title": "第四章：潘朵拉的硬碟 (Pandora's Drive) - Part 1：黑市診所",
               "sourceFile": "04_Chapter4_Part1.md",
               "htmlFile": "ch04-01.html"
             },
             {
               "id": "ch04-02",
-              "title": "第四章：潘朵拉的硬碟 (Pandora's Drive) - 燃燒的普羅米修斯",
+              "title": "第四章：潘朵拉的硬碟 (Pandora's Drive) - Part 2：普羅米修斯",
               "sourceFile": "04_Chapter4_Part2.md",
               "htmlFile": "ch04-02.html"
             },
             {
               "id": "ch04-03",
-              "title": "第四章：潘朵拉的硬碟 (Pandora's Drive) - 完美的殺戮機器",
+              "title": "第四章：潘朵拉的硬碟 (Pandora's Drive) - Part 3：病毒爆發",
               "sourceFile": "04_Chapter4_Part3.md",
               "htmlFile": "ch04-03.html"
             },
             {
               "id": "ch04-04",
-              "title": "第四章：潘朵拉的硬碟 (Pandora's Drive) - 獵人與獵物",
+              "title": "第四章：潘朵拉的硬碟 (Pandora's Drive) - Part 4：K 的包圍網",
               "sourceFile": "04_Chapter4_Part4.md",
               "htmlFile": "ch04-04.html"
             },
             {
               "id": "ch05-01",
-              "title": "第五章：雙重圍殺 (Double Siege) - 黑暗中的老鼠",
+              "title": "第五章：雙重圍殺 (Double Siege) - Part 1：內憂外患",
               "sourceFile": "05_Chapter5_Part1.md",
               "htmlFile": "ch05-01.html"
             },
             {
               "id": "ch05-02",
-              "title": "第五章：雙重圍殺 (Double Siege) - 規則外的交涉",
+              "title": "第五章：雙重圍殺 (Double Siege) - Part 2：智鬥獵犬",
               "sourceFile": "05_Chapter5_Part2.md",
               "htmlFile": "ch05-02.html"
             },
             {
               "id": "ch05-03",
-              "title": "第五章：雙重圍殺 (Double Siege) - 滅世級判定 (Extinction Level)",
+              "title": "第五章：雙重圍殺 (Double Siege) - Part 3：滅世級威脅",
               "sourceFile": "05_Chapter5_Part3.md",
               "htmlFile": "ch05-03.html"
             },
             {
               "id": "ch05-04",
-              "title": "第五章：雙重圍殺 (Double Siege) - 優先級錯誤 (Priority Error)",
+              "title": "第五章：雙重圍殺 (Double Siege) - Part 4：擋下子彈",
               "sourceFile": "05_Chapter5_Part4.md",
               "htmlFile": "ch05-04.html"
             },
             {
               "id": "ch06-01",
-              "title": "第六章：人偶的夢 (Doll's Dream) - 灰燼中的蝴蝶",
+              "title": "第六章：人偶的夢 (Doll's Dream) - Part 1：深層記憶",
               "sourceFile": "06_Chapter6_Part1.md",
               "htmlFile": "ch06-01.html"
             },
             {
               "id": "ch06-02",
-              "title": "第六章：人偶的夢 (Doll's Dream) - 損壞的人偶",
+              "title": "第六章：人偶的夢 (Doll's Dream) - Part 2：指令衝突",
               "sourceFile": "06_Chapter6_Part2.md",
               "htmlFile": "ch06-02.html"
             },
             {
               "id": "ch06-03",
-              "title": "第六章：人偶的夢 (Doll's Dream) - 屍體回收",
+              "title": "第六章：人偶的夢 (Doll's Dream) - Part 3：自我崩潰",
               "sourceFile": "06_Chapter6_Part3.md",
               "htmlFile": "ch06-03.html"
             },
             {
               "id": "ch06-04",
-              "title": "第六章：人偶的夢 (Doll's Dream) - 歡迎回家",
+              "title": "第六章：人偶的夢 (Doll's Dream) - Part 4：下水道逃亡",
               "sourceFile": "06_Chapter6_Part4.md",
               "htmlFile": "ch06-04.html"
             },
             {
               "id": "epilogue",
-              "title": "終章：被遺忘的代價 (The Cost)",
+              "title": "終章：被遺忘的代價 (Epilogue)",
               "sourceFile": "Epilogue.md",
               "htmlFile": "epilogue.html"
             }
@@ -191,133 +191,133 @@
             },
             {
               "id": "ch01-01",
-              "title": "第一章：電子幻夢 (Digital Reverie) - Part 1",
+              "title": "第一章：電子幻夢 (Digital Reverie) - Part 1：噪音花園",
               "sourceFile": "01_Chapter1_Part1.md",
               "htmlFile": "ch01-01.html"
             },
             {
               "id": "ch01-02",
-              "title": "第一章：電子幻夢 (Digital Reverie) - Part 2",
+              "title": " - Part 2：白兔診所",
               "sourceFile": "01_Chapter1_Part2.md",
               "htmlFile": "ch01-02.html"
             },
             {
               "id": "ch01-03",
-              "title": "第一章：電子幻夢 (Digital Reverie) - Part 3",
+              "title": " - Part 3：聖海倫娜學院",
               "sourceFile": "01_Chapter1_Part3.md",
               "htmlFile": "ch01-03.html"
             },
             {
               "id": "ch01-04",
-              "title": "第一章：電子幻夢 (Digital Reverie) - Part 4",
+              "title": " - Part 4：C-14 區域",
               "sourceFile": "01_Chapter1_Part4.md",
               "htmlFile": "ch01-04.html"
             },
             {
               "id": "ch02-01",
-              "title": "第二章：鏽蝕的交易 (Rusty Deal) - Part 1",
+              "title": "第二章：鏽蝕的交易 (Rusty Deal) - Part 1：機械心臟",
               "sourceFile": "02_Chapter2_Part1.md",
               "htmlFile": "ch02-01.html"
             },
             {
               "id": "ch02-02",
-              "title": "第二章：鏽蝕的交易 (Rusty Deal) - Part 2",
+              "title": " - Part 2：黑市潛規則",
               "sourceFile": "02_Chapter2_Part2.md",
               "htmlFile": "ch02-02.html"
             },
             {
               "id": "ch02-03",
-              "title": "第二章：鏽蝕的交易 (Rusty Deal) - Part 3",
+              "title": " - Part 3：滲透與駭入",
               "sourceFile": "02_Chapter2_Part3.md",
               "htmlFile": "ch02-03.html"
             },
             {
               "id": "ch02-04",
-              "title": "第二章：鏽蝕的交易 (Rusty Deal) - Part 4",
+              "title": " - Part 4：陰險的後門",
               "sourceFile": "02_Chapter2_Part4.md",
               "htmlFile": "ch02-04.html"
             },
             {
               "id": "ch03-01",
-              "title": "第三章：記憶加工廠 (The Processing Plant) - Part 1",
+              "title": "第三章：記憶加工廠 (The Processing Plant) - Part 1：無雙模式",
               "sourceFile": "03_Chapter3_Part1.md",
               "htmlFile": "ch03-01.html"
             },
             {
               "id": "ch03-02",
-              "title": "第三章：記憶加工廠 (The Processing Plant) - Part 2",
+              "title": " - Part 2：兇手的記憶",
               "sourceFile": "03_Chapter3_Part2.md",
               "htmlFile": "ch03-02.html"
             },
             {
               "id": "ch03-03",
-              "title": "第三章：記憶加工廠 (The Processing Plant) - Part 3",
+              "title": " - Part 3：記憶剪輯",
               "sourceFile": "03_Chapter3_Part3.md",
               "htmlFile": "ch03-03.html"
             },
             {
               "id": "ch03-04",
-              "title": "第三章：記憶加工廠 (The Processing Plant) - Part 4",
+              "title": " - Part 4：邏輯覆寫",
               "sourceFile": "03_Chapter3_Part4.md",
               "htmlFile": "ch03-04.html"
             },
             {
               "id": "ch04-01",
-              "title": "第四章：暴雨夜行 (Walking in the Storm) - Part 1",
+              "title": "第四章：暴雨夜行 (Walking in the Storm) - Part 1：紅雨病毒",
               "sourceFile": "04_Chapter4_Part1.md",
               "htmlFile": "ch04-01.html"
             },
             {
               "id": "ch04-02",
-              "title": "第四章：暴雨夜行 (Walking in the Storm) - Part 2",
+              "title": " - Part 2：父女遊戲",
               "sourceFile": "04_Chapter4_Part2.md",
               "htmlFile": "ch04-02.html"
             },
             {
               "id": "ch04-03",
-              "title": "第四章：暴雨夜行 (Walking in the Storm) - Part 3",
+              "title": " - Part 3：籠中鳥",
               "sourceFile": "04_Chapter4_Part3.md",
               "htmlFile": "ch04-03.html"
             },
             {
               "id": "ch05-01",
-              "title": "第五章：玻璃籠中的野獸 (Beast in the Glass Cage) - Part 1",
+              "title": "第五章：玻璃籠中的野獸 (Beast in the Glass Cage) - Part 1：體溫傳導",
               "sourceFile": "05_Chapter5_Part1.md",
               "htmlFile": "ch05-01.html"
             },
             {
               "id": "ch05-02",
-              "title": "第五章：玻璃籠中的野獸 (Beast in the Glass Cage) - Part 2",
+              "title": " - Part 2：真實的謊言",
               "sourceFile": "05_Chapter5_Part2.md",
               "htmlFile": "ch05-02.html"
             },
             {
               "id": "ch05-03",
-              "title": "第五章：玻璃籠中的野獸 (Beast in the Glass Cage) - Part 3",
+              "title": " - Part 3：約定",
               "sourceFile": "05_Chapter5_Part3.md",
               "htmlFile": "ch05-03.html"
             },
             {
               "id": "ch05-04",
-              "title": "第五章：玻璃籠中的野獸 (Beast in the Glass Cage) - Part 4",
+              "title": " - Part 4：獵犬與野獸",
               "sourceFile": "05_Chapter5_Part4.md",
               "htmlFile": "ch05-04.html"
             },
             {
               "id": "ch06-01",
-              "title": "第六章：獵犬與幽靈 (The Hound and The Ghost) - Part 1",
+              "title": "第六章：獵犬與幽靈 (The Hound and The Ghost) - Part 1：暫時同盟",
               "sourceFile": "06_Chapter6_Part1.md",
               "htmlFile": "ch06-01.html"
             },
             {
               "id": "ch06-02",
-              "title": "第六章：獵犬與幽靈 (The Hound and The Ghost) - Part 2",
+              "title": " - Part 2：最後的侍奉",
               "sourceFile": "06_Chapter6_Part2.md",
               "htmlFile": "ch06-02.html"
             },
             {
               "id": "ch06-03",
-              "title": "第六章：獵犬與幽靈 (The Hound and The Ghost) - Part 3",
+              "title": " - Part 3：被遺忘的子彈",
               "sourceFile": "06_Chapter6_Part3.md",
               "htmlFile": "ch06-03.html"
             },
@@ -339,157 +339,157 @@
           "chapters": [
             {
               "id": "prologue",
-              "title": "序章：高塔陰影",
+              "title": "序章：高塔陰影 (The Shadow of the Tower)",
               "sourceFile": "00_Prologue.md",
               "htmlFile": "prologue.html"
             },
             {
               "id": "ch01-01",
-              "title": "第一章：光學迷彩 (Part 1)",
+              "title": "第一章：光學迷彩 (Optical Camouflage) - Part 1：偽裝準備",
               "sourceFile": "01_Chapter1_Part1.md",
               "htmlFile": "ch01-01.html"
             },
             {
               "id": "ch01-02",
-              "title": "第一章：光學迷彩 (Part 2)",
+              "title": " - Part 2：潛入開始",
               "sourceFile": "01_Chapter1_Part2.md",
               "htmlFile": "ch01-02.html"
             },
             {
               "id": "ch01-03",
-              "title": "第一章：光學迷彩 (Part 3)",
+              "title": " - Part 3：清潔工的日常",
               "sourceFile": "01_Chapter1_Part3.md",
               "htmlFile": "ch01-03.html"
             },
             {
               "id": "ch01-04",
-              "title": "第一章：光學迷彩 (Part 4)",
+              "title": " - Part 4：第一層覆蓋",
               "sourceFile": "01_Chapter1_Part4.md",
               "htmlFile": "ch01-04.html"
             },
             {
               "id": "ch02-01",
-              "title": "第二章：第 13.5 層 (Part 1)",
+              "title": "第二章：第 13.5 層 (The Floor That Doesn't Exist) - Part 1：電梯異常",
               "sourceFile": "02_Chapter2_Part1.md",
               "htmlFile": "ch02-01.html"
             },
             {
               "id": "ch02-02",
-              "title": "第二章：第 13.5 層 (Part 2)",
+              "title": " - Part 2：進入夾層",
               "sourceFile": "02_Chapter2_Part2.md",
               "htmlFile": "ch02-02.html"
             },
             {
               "id": "ch02-03",
-              "title": "第二章：第 13.5 層 (Part 3)",
+              "title": " - Part 3：活體機房",
               "sourceFile": "02_Chapter2_Part3.md",
               "htmlFile": "ch02-03.html"
             },
             {
               "id": "ch02-04",
-              "title": "第二章：第 13.5 層 (Part 4)",
+              "title": " - Part 4：觸發警報",
               "sourceFile": "02_Chapter2_Part4.md",
               "htmlFile": "ch02-04.html"
             },
             {
               "id": "ch03-01",
-              "title": "第三章：甕中之鱉 (Part 1)",
+              "title": "第三章：甕中之鱉 (Rat in the Trap) - Part 1：全面封鎖",
               "sourceFile": "03_Chapter3_Part1.md",
               "htmlFile": "ch03-01.html"
             },
             {
               "id": "ch03-02",
-              "title": "第三章：甕中之鱉 (Part 2)",
+              "title": " - Part 2：毒蛇出洞",
               "sourceFile": "03_Chapter3_Part2.md",
               "htmlFile": "ch03-02.html"
             },
             {
               "id": "ch03-03",
-              "title": "第三章：甕中之鱉 (Part 3)",
+              "title": " - Part 3：看不見的敵人",
               "sourceFile": "03_Chapter3_Part3.md",
               "htmlFile": "ch03-03.html"
             },
             {
               "id": "ch03-04",
-              "title": "第三章：甕中之鱉 (Part 4)",
+              "title": " - Part 4：情報壓制",
               "sourceFile": "03_Chapter3_Part4.md",
               "htmlFile": "ch03-04.html"
             },
             {
               "id": "ch04-01",
-              "title": "第四章：垂直戰場 (Part 1)",
+              "title": "第四章：垂直戰場 (Vertical Battlefield) - Part 1：通風管求生",
               "sourceFile": "04_Chapter4_Part1.md",
               "htmlFile": "ch04-01.html"
             },
             {
               "id": "ch04-02",
-              "title": "第四章：垂直戰場 (Part 2)",
+              "title": " - Part 2：電梯井機動",
               "sourceFile": "04_Chapter4_Part2.md",
               "htmlFile": "ch04-02.html"
             },
             {
               "id": "ch04-03",
-              "title": "第四章：垂直戰場 (Part 3)",
+              "title": " - Part 3：水霧戰術",
               "sourceFile": "04_Chapter4_Part3.md",
               "htmlFile": "ch04-03.html"
             },
             {
               "id": "ch04-04",
-              "title": "第四章：垂直戰場 (Part 4)",
+              "title": " - Part 4：顯形",
               "sourceFile": "04_Chapter4_Part4.md",
               "htmlFile": "ch04-04.html"
             },
             {
               "id": "ch05-01",
-              "title": "第五章：暫時的盟約 (Part 1)",
+              "title": "第五章：暫時的盟約 (Temporary Alliance) - Part 1：頂樓對峙",
               "sourceFile": "05_Chapter5_Part1.md",
               "htmlFile": "ch05-01.html"
             },
             {
               "id": "ch05-02",
-              "title": "第五章：暫時的盟約 (Part 2)",
+              "title": " - Part 2：董事的介入",
               "sourceFile": "05_Chapter5_Part2.md",
               "htmlFile": "ch05-02.html"
             },
             {
               "id": "ch05-03",
-              "title": "第五章：暫時的盟約 (Part 3)",
+              "title": " - Part 3：共同戰線",
               "sourceFile": "05_Chapter5_Part3.md",
               "htmlFile": "ch05-03.html"
             },
             {
               "id": "ch05-04",
-              "title": "第五章：暫時的盟約 (Part 4)",
+              "title": " - Part 4：解密準備",
               "sourceFile": "05_Chapter5_Part4.md",
               "htmlFile": "ch05-04.html"
             },
             {
               "id": "ch06-01",
-              "title": "第六章：數據的重量 (Part 1)",
+              "title": "第六章：數據的重量 (The Weight of Data) - Part 1：失控的銀色風暴",
               "sourceFile": "06_Chapter6_Part1.md",
               "htmlFile": "ch06-01.html"
             },
             {
               "id": "ch06-02",
-              "title": "第六章：數據的重量 (Part 2)",
+              "title": " - Part 2：名為「恐懼」的燃料",
               "sourceFile": "06_Chapter6_Part2.md",
               "htmlFile": "ch06-02.html"
             },
             {
               "id": "ch06-03",
-              "title": "第六章：數據的重量 (Part 3)",
+              "title": " - Part 3：第 13.5 層的終結",
               "sourceFile": "06_Chapter6_Part3.md",
               "htmlFile": "ch06-03.html"
             },
             {
               "id": "ch06-04",
-              "title": "第六章：數據的重量 (Part 4)",
+              "title": " - Part 4：自由落體",
               "sourceFile": "06_Chapter6_Part4.md",
               "htmlFile": "ch06-04.html"
             },
             {
               "id": "epilogue",
-              "title": "終章：墜落與升起 (Epilogue)",
+              "title": "終章：墜落與升起 (Fall and Rise) (Epilogue)",
               "sourceFile": "Epilogue.md",
               "htmlFile": "epilogue.html"
             }
@@ -505,13 +505,13 @@
           "chapters": [
             {
               "id": "prologue",
-              "title": "序章：逃離培育箱",
+              "title": "序章：逃離培育箱 (Escape from the Incubator)",
               "sourceFile": "00_Prologue.md",
               "htmlFile": "prologue.html"
             },
             {
               "id": "ch01-01",
-              "title": "第一章：天上掉下來的麻煩 - Part 1：不速之客",
+              "title": "第一章：天上掉下來的麻煩 (Trouble from the Sky) - Part 1：不速之客",
               "sourceFile": "01_Chapter1_Part1.md",
               "htmlFile": "ch01-01.html"
             },
@@ -535,7 +535,7 @@
             },
             {
               "id": "ch02-01",
-              "title": "第二章：恐怖谷育兒法 - Part 1：物理防護",
+              "title": "第二章：恐怖谷育兒法 (The Uncanny Nanny) - Part 1：物理防護",
               "sourceFile": "02_Chapter2_Part1.md",
               "htmlFile": "ch02-01.html"
             },
@@ -559,7 +559,7 @@
             },
             {
               "id": "ch03-01",
-              "title": "第三章：回收部隊 - Part 1：夜襲",
+              "title": "第三章：回收部隊 (Recovery Team) - Part 1：夜襲",
               "sourceFile": "03_Chapter3_Part1.md",
               "htmlFile": "ch03-01.html"
             },
@@ -583,7 +583,7 @@
             },
             {
               "id": "ch04-01",
-              "title": "第四章：銹與血的合奏 - Part 1：工業迷宮",
+              "title": "第四章：銹與血的合奏 (Rust and Blood) - Part 1：工業迷宮",
               "sourceFile": "04_Chapter4_Part1.md",
               "htmlFile": "ch04-01.html"
             },
@@ -607,31 +607,31 @@
             },
             {
               "id": "ch05-01",
-              "title": "第五章：遺忘的搖籃曲 - Part 1：餘燼",
+              "title": "第五章：遺忘的搖籃曲 (Lullaby of Oblivion) - Part 1：代價支付",
               "sourceFile": "05_Chapter5_Part1.md",
               "htmlFile": "ch05-01.html"
             },
             {
               "id": "ch05-02",
-              "title": "第五章：遺忘的搖籃曲 - Part 2：缺失的拼圖",
+              "title": "第五章：遺忘的搖籃曲 - Part 2：燃燒童年",
               "sourceFile": "05_Chapter5_Part2.md",
               "htmlFile": "ch05-02.html"
             },
             {
               "id": "ch05-03",
-              "title": "第五章：遺忘的搖籃曲 - Part 3：診所夜話",
+              "title": "第五章：遺忘的搖籃曲 - Part 3：鋼鐵覺醒",
               "sourceFile": "05_Chapter5_Part3.md",
               "htmlFile": "ch05-03.html"
             },
             {
               "id": "ch05-04",
-              "title": "第五章：遺忘的搖籃曲 - Part 4：搖籃曲",
+              "title": "第五章：遺忘的搖籃曲 - Part 4：雨過天晴",
               "sourceFile": "05_Chapter5_Part4.md",
               "htmlFile": "ch05-04.html"
             },
             {
               "id": "epilogue",
-              "title": "尾聲：損壞的鑰匙",
+              "title": "終章：新的家人 (New Family)",
               "sourceFile": "Epilogue.md",
               "htmlFile": "epilogue.html"
             }
