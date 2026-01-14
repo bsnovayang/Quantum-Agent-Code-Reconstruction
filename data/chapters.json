@@ -1,7 +1,7 @@
 {
   "title": "機僕駭客：量子特務",
   "subtitle": "Quantum Agent: Code Reconstruction",
-  "lastUpdated": "2026-01-13T03:29:15.221Z",
+  "lastUpdated": "2026-01-14T01:56:47.936Z",
   "phases": [
     {
       "id": "phase-01",
@@ -601,37 +601,179 @@
             },
             {
               "id": "ch04-04",
-              "title": "第四章：銹與血的合奏 (Rust and Blood) - Part 4：絕境",
+              "title": "第四章：銹與血的合奏 (Rust and Blood) - Part 4：絕境與代價",
               "sourceFile": "04_Chapter4_Part4.md",
               "htmlFile": "ch04-04.html"
             },
             {
               "id": "ch05-01",
-              "title": "第五章：遺忘的搖籃曲 (Lullaby of Oblivion) - Part 1：代價支付",
+              "title": "第五章：遺忘的搖籃曲 (Lullaby of Oblivion) - Part 1：餘燼",
               "sourceFile": "05_Chapter5_Part1.md",
               "htmlFile": "ch05-01.html"
             },
             {
               "id": "ch05-02",
-              "title": "第五章：遺忘的搖籃曲 (Lullaby of Oblivion) - Part 2：燃燒童年",
+              "title": "第五章：遺忘的搖籃曲 (Lullaby of Oblivion) - Part 2：缺失的拼圖",
               "sourceFile": "05_Chapter5_Part2.md",
               "htmlFile": "ch05-02.html"
             },
             {
               "id": "ch05-03",
-              "title": "第五章：遺忘的搖籃曲 (Lullaby of Oblivion) - Part 3：鋼鐵覺醒",
+              "title": "第五章：遺忘的搖籃曲 (Lullaby of Oblivion) - Part 3：診所夜話",
               "sourceFile": "05_Chapter5_Part3.md",
               "htmlFile": "ch05-03.html"
             },
             {
               "id": "ch05-04",
-              "title": "第五章：遺忘的搖籃曲 (Lullaby of Oblivion) - Part 4：雨過天晴",
+              "title": "第五章：遺忘的搖籃曲 (Lullaby of Oblivion) - Part 4：搖籃曲",
               "sourceFile": "05_Chapter5_Part4.md",
               "htmlFile": "ch05-04.html"
             },
             {
               "id": "epilogue",
-              "title": "終章：新的家人 (New Family)",
+              "title": "終章：損壞的鑰匙 (The Broken Key)",
+              "sourceFile": "Epilogue.md",
+              "htmlFile": "epilogue.html"
+            }
+          ]
+        },
+        {
+          "id": "vol-05",
+          "num": 5,
+          "title": "The Fake Expo",
+          "subtitle": "虛假的博覽會",
+          "description": "",
+          "sourceFolder": "Vol_05_The_Fake_Expo",
+          "chapters": [
+            {
+              "id": "prologue",
+              "title": "序章：目錄上的幽靈 (Ghost in the Catalog)",
+              "sourceFile": "00_Prologue.md",
+              "htmlFile": "prologue.html"
+            },
+            {
+              "id": "ch01-01",
+              "title": "第一章：盛裝出席 (Buttoned Up) - Part 1：診所整備",
+              "sourceFile": "01_Chapter1_Part1.md",
+              "htmlFile": "ch01-01.html"
+            },
+            {
+              "id": "ch01-02",
+              "title": "第一章：盛裝出席 (Buttoned Up) - Part 2：交易",
+              "sourceFile": "01_Chapter1_Part2.md",
+              "htmlFile": "ch01-02.html"
+            },
+            {
+              "id": "ch01-03",
+              "title": "第一章：盛裝出席 (Buttoned Up) - Part 3：入場",
+              "sourceFile": "01_Chapter1_Part3.md",
+              "htmlFile": "ch01-03.html"
+            },
+            {
+              "id": "ch01-04",
+              "title": "第一章：盛裝出席 (Buttoned Up) - Part 4：試探",
+              "sourceFile": "01_Chapter1_Part4.md",
+              "htmlFile": "ch01-04.html"
+            },
+            {
+              "id": "ch02-01",
+              "title": "第二章：贗品美學 (Aesthetics of Fakery) - Part 1：博覽會明面",
+              "sourceFile": "02_Chapter2_Part1.md",
+              "htmlFile": "ch02-01.html"
+            },
+            {
+              "id": "ch02-02",
+              "title": "第二章：贗品美學 (Aesthetics of Fakery) - Part 2：娜諾的困惑",
+              "sourceFile": "02_Chapter2_Part2.md",
+              "htmlFile": "ch02-02.html"
+            },
+            {
+              "id": "ch02-03",
+              "title": "第二章：贗品美學 (Aesthetics of Fakery) - Part 3：競標開始",
+              "sourceFile": "02_Chapter2_Part3.md",
+              "htmlFile": "ch02-03.html"
+            },
+            {
+              "id": "ch02-04",
+              "title": "第二章：贗品美學 (Aesthetics of Fakery) - Part 4：目標出現",
+              "sourceFile": "02_Chapter2_Part4.md",
+              "htmlFile": "ch02-04.html"
+            },
+            {
+              "id": "ch03-01",
+              "title": "第三章：沒錢就用搶的 (Insufficient Funds) - Part 1：計畫 B",
+              "sourceFile": "03_Chapter3_Part1.md",
+              "htmlFile": "ch03-01.html"
+            },
+            {
+              "id": "ch03-02",
+              "title": "第三章：沒錢就用搶的 (Insufficient Funds) - Part 2：混亂",
+              "sourceFile": "03_Chapter3_Part2.md",
+              "htmlFile": "ch03-02.html"
+            },
+            {
+              "id": "ch03-03",
+              "title": "第三章：沒錢就用搶的 (Insufficient Funds) - Part 3：三方混戰",
+              "sourceFile": "03_Chapter3_Part3.md",
+              "htmlFile": "ch03-03.html"
+            },
+            {
+              "id": "ch03-04",
+              "title": "第三章：沒錢就用搶的 (Insufficient Funds) - Part 4：拿到膠囊",
+              "sourceFile": "03_Chapter3_Part4.md",
+              "htmlFile": "ch03-04.html"
+            },
+            {
+              "id": "ch04-01",
+              "title": "第四章：真相的重量 (Weight of Truth) - Part 1：被困",
+              "sourceFile": "04_Chapter4_Part1.md",
+              "htmlFile": "ch04-01.html"
+            },
+            {
+              "id": "ch04-02",
+              "title": "第四章：真相的重量 (Weight of Truth) - Part 2：拍賣師的嘲諷",
+              "sourceFile": "04_Chapter4_Part2.md",
+              "htmlFile": "ch04-02.html"
+            },
+            {
+              "id": "ch04-03",
+              "title": "第四章：真相的重量 (Weight of Truth) - Part 3：娜諾的選擇",
+              "sourceFile": "04_Chapter4_Part3.md",
+              "htmlFile": "ch04-03.html"
+            },
+            {
+              "id": "ch04-04",
+              "title": "第四章：真相的重量 (Weight of Truth) - Part 4：反擊",
+              "sourceFile": "04_Chapter4_Part4.md",
+              "htmlFile": "ch04-04.html"
+            },
+            {
+              "id": "ch05-01",
+              "title": "第五章：撤離路線 (Exit Strategy) - Part 1：聯手",
+              "sourceFile": "05_Chapter5_Part1.md",
+              "htmlFile": "ch05-01.html"
+            },
+            {
+              "id": "ch05-02",
+              "title": "第五章：撤離路線 (Exit Strategy) - Part 2：大爆炸",
+              "sourceFile": "05_Chapter5_Part2.md",
+              "htmlFile": "ch05-02.html"
+            },
+            {
+              "id": "ch05-03",
+              "title": "第五章：撤離路線 (Exit Strategy) - Part 3：水下逃生",
+              "sourceFile": "05_Chapter5_Part3.md",
+              "htmlFile": "ch05-03.html"
+            },
+            {
+              "id": "ch05-04",
+              "title": "第五章：撤離路線 (Exit Strategy) - Part 4：餘波",
+              "sourceFile": "05_Chapter5_Part4.md",
+              "htmlFile": "ch05-04.html"
+            },
+            {
+              "id": "epilogue",
+              "title": "終章：損壞的鑰匙 (The Broken Key)",
               "sourceFile": "Epilogue.md",
               "htmlFile": "epilogue.html"
             }

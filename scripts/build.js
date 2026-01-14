@@ -245,7 +245,8 @@ function getVolumeSubtitle(englishTitle) {
     'Ghost Signal': '幽靈訊號',
     'Memory Vendor': '記憶販賣者',
     'The Non Existent Floor': '不存在的樓層',
-    'Steel Lullaby': '鋼鐵搖籃曲'
+    'Steel Lullaby': '鋼鐵搖籃曲',
+    'The Fake Expo': '虛假的博覽會'
   };
   return subtitles[englishTitle] || '';
 }
