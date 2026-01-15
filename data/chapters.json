@@ -1,7 +1,7 @@
 {
   "title": "機僕駭客：量子特務",
   "subtitle": "Quantum Agent: Code Reconstruction",
-  "lastUpdated": "2026-01-14T01:56:47.936Z",
+  "lastUpdated": "2026-01-15T04:02:36.938Z",
   "phases": [
     {
       "id": "phase-01",
@@ -774,6 +774,148 @@
             {
               "id": "epilogue",
               "title": "終章：損壞的鑰匙 (The Broken Key)",
+              "sourceFile": "Epilogue.md",
+              "htmlFile": "epilogue.html"
+            }
+          ]
+        },
+        {
+          "id": "vol-06",
+          "num": 6,
+          "title": "Hunting the Phantom",
+          "subtitle": "獵殺幽靈",
+          "description": "",
+          "sourceFolder": "Vol_06_Hunting_the_Phantom",
+          "chapters": [
+            {
+              "id": "prologue",
+              "title": "序章：頭號通緝 (The Most Wanted)",
+              "sourceFile": "00_Prologue.md",
+              "htmlFile": "prologue.html"
+            },
+            {
+              "id": "ch01-01",
+              "title": "第一章：各種贗品 (Imposters Everywhere) - Part 1: 贗品 (The Fake)",
+              "sourceFile": "01_Chapter1_Part1.md",
+              "htmlFile": "ch01-01.html"
+            },
+            {
+              "id": "ch01-02",
+              "title": "第一章：各種贗品 (Imposters Everywhere) - Part 2: 被動 (Cornered)",
+              "sourceFile": "01_Chapter1_Part2.md",
+              "htmlFile": "ch01-02.html"
+            },
+            {
+              "id": "ch01-03",
+              "title": "第一章：各種贗品 (Imposters Everywhere) - Part 3: 接觸 (Contact)",
+              "sourceFile": "01_Chapter1_Part3.md",
+              "htmlFile": "ch01-03.html"
+            },
+            {
+              "id": "ch01-04",
+              "title": "第一章：各種贗品 (Imposters Everywhere) - Part 4: 逃亡 (Escape)",
+              "sourceFile": "01_Chapter1_Part4.md",
+              "htmlFile": "ch01-04.html"
+            },
+            {
+              "id": "ch02-01",
+              "title": "第二章：透明的痛楚 (Phantom Pain) - Part 1: 白化開始 (Whiteout Begins)",
+              "sourceFile": "02_Chapter2_Part1.md",
+              "htmlFile": "ch02-01.html"
+            },
+            {
+              "id": "ch02-02",
+              "title": "第二章：透明的痛楚 (Phantom Pain) - Part 2: 診斷 (Diagnosis)",
+              "sourceFile": "02_Chapter2_Part2.md",
+              "htmlFile": "ch02-02.html"
+            },
+            {
+              "id": "ch02-03",
+              "title": "第二章：透明的痛楚 (Phantom Pain) - Part 3: 獵人的直覺 (Hunter's Instinct)",
+              "sourceFile": "02_Chapter2_Part3.md",
+              "htmlFile": "ch02-03.html"
+            },
+            {
+              "id": "ch02-04",
+              "title": "第二章：透明的痛楚 (Phantom Pain) - Part 4: 惡意邀請 (Malicious Invitation)",
+              "sourceFile": "02_Chapter2_Part4.md",
+              "htmlFile": "ch02-04.html"
+            },
+            {
+              "id": "ch03-01",
+              "title": "第三章：鏡中殺機 (Mirror Match) - Part 1: 陷阱 (The Trap)",
+              "sourceFile": "03_Chapter3_Part1.md",
+              "htmlFile": "ch03-01.html"
+            },
+            {
+              "id": "ch03-02",
+              "title": "第三章：鏡中殺機 (Mirror Match) - Part 2: 對峙 (Standoff)",
+              "sourceFile": "03_Chapter3_Part2.md",
+              "htmlFile": "ch03-02.html"
+            },
+            {
+              "id": "ch03-03",
+              "title": "第三章：鏡中殺機 (Mirror Match) - Part 3: 激戰 (Fierce Battle)",
+              "sourceFile": "03_Chapter3_Part3.md",
+              "htmlFile": "ch03-03.html"
+            },
+            {
+              "id": "ch03-04",
+              "title": "第三章：鏡中殺機 (Mirror Match) - Part 4: 代價 (The Price)",
+              "sourceFile": "03_Chapter3_Part4.md",
+              "htmlFile": "ch03-04.html"
+            },
+            {
+              "id": "ch04-01",
+              "title": "第四章：證明與存在 (Proof of Existence) - Part 1: 陌路人 (Strangers)",
+              "sourceFile": "04_Chapter4_Part1.md",
+              "htmlFile": "ch04-01.html"
+            },
+            {
+              "id": "ch04-02",
+              "title": "第四章：證明與存在 (Proof of Existence) - Part 2: 對決 (Confrontation)",
+              "sourceFile": "04_Chapter4_Part2.md",
+              "htmlFile": "ch04-02.html"
+            },
+            {
+              "id": "ch04-03",
+              "title": "第四章：證明與存在 (Proof of Existence) - Part 3: 封鎖線 (Blockade)",
+              "sourceFile": "04_Chapter4_Part3.md",
+              "htmlFile": "ch04-03.html"
+            },
+            {
+              "id": "ch04-04",
+              "title": "第四章：證明與存在 (Proof of Existence) - Part 4: 暗巷 (Back Alley)",
+              "sourceFile": "04_Chapter4_Part4.md",
+              "htmlFile": "ch04-04.html"
+            },
+            {
+              "id": "ch05-01",
+              "title": "第五章：證明與存在 (Proof of Existence) - Part 3: 資產回收 (Asset Recovery)",
+              "sourceFile": "05_Chapter5_Part1.md",
+              "htmlFile": "ch05-01.html"
+            },
+            {
+              "id": "ch05-02",
+              "title": "第五章：證明與存在 (Proof of Existence) - Part 4: 歸零 (Return to Zero)",
+              "sourceFile": "05_Chapter5_Part2.md",
+              "htmlFile": "ch05-02.html"
+            },
+            {
+              "id": "ch05-03",
+              "title": "第五章：證明與存在 (Proof of Existence) - Part 3: 深淵的凝視 (Gaze of Abyss)",
+              "sourceFile": "05_Chapter5_Part3.md",
+              "htmlFile": "ch05-03.html"
+            },
+            {
+              "id": "ch05-04",
+              "title": "第五章：證明與存在 (Proof of Existence) - Part 4: 潛入者 (The Diver)",
+              "sourceFile": "05_Chapter5_Part4.md",
+              "htmlFile": "ch05-04.html"
+            },
+            {
+              "id": "epilogue",
+              "title": "終章：未開封的信 (Unopened Letter)",
               "sourceFile": "Epilogue.md",
               "htmlFile": "epilogue.html"
             }

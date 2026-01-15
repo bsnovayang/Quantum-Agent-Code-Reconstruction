@@ -246,7 +246,8 @@ function getVolumeSubtitle(englishTitle) {
     'Memory Vendor': '記憶販賣者',
     'The Non Existent Floor': '不存在的樓層',
     'Steel Lullaby': '鋼鐵搖籃曲',
-    'The Fake Expo': '虛假的博覽會'
+    'The Fake Expo': '虛假的博覽會',
+    'Hunting the Phantom': '獵殺幽靈'
   };
   return subtitles[englishTitle] || '';
 }
