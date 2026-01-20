@@ -247,7 +247,8 @@ function getVolumeSubtitle(englishTitle) {
     'The Non Existent Floor': '不存在的樓層',
     'Steel Lullaby': '鋼鐵搖籃曲',
     'The Fake Expo': '虛假的博覽會',
-    'Hunting the Phantom': '獵殺幽靈'
+    'Hunting the Phantom': '獵殺幽靈',
+    'Protocol Zero': '零點協議'
   };
   return subtitles[englishTitle] || '';
 }

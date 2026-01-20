@@ -1,7 +1,7 @@
 {
   "title": "機僕駭客：量子特務",
   "subtitle": "Quantum Agent: Code Reconstruction",
-  "lastUpdated": "2026-01-15T04:02:36.938Z",
+  "lastUpdated": "2026-01-20T08:53:51.321Z",
   "phases": [
     {
       "id": "phase-01",
@@ -916,6 +916,142 @@
             {
               "id": "epilogue",
               "title": "終章：未開封的信 (Unopened Letter)",
+              "sourceFile": "Epilogue.md",
+              "htmlFile": "epilogue.html"
+            }
+          ]
+        },
+        {
+          "id": "vol-07",
+          "num": 7,
+          "title": "Protocol Zero",
+          "subtitle": "零點協議",
+          "description": "",
+          "sourceFolder": "Vol_07_Protocol_Zero",
+          "chapters": [
+            {
+              "id": "ch01-01",
+              "title": "第一章：監察者 (The Watchers) - Part 1: 深潛 ( Dive)",
+              "sourceFile": "01_Chapter1_Part1.md",
+              "htmlFile": "ch01-01.html"
+            },
+            {
+              "id": "ch01-02",
+              "title": "第一章：監察者 (The Watchers) - Part 2: 邏輯與暴力 (Logic and Brute Force)",
+              "sourceFile": "01_Chapter1_Part2.md",
+              "htmlFile": "ch01-02.html"
+            },
+            {
+              "id": "ch01-03",
+              "title": "第一章：監察者 (The Watchers) - Part 3: 遺忘的圖書館 (The Forgotten Library)",
+              "sourceFile": "01_Chapter1_Part3.md",
+              "htmlFile": "ch01-03.html"
+            },
+            {
+              "id": "ch01-04",
+              "title": "第一章：監察者 (The Watchers) - Part 4: 權限 (Authority)",
+              "sourceFile": "01_Chapter1_Part4.md",
+              "htmlFile": "ch01-04.html"
+            },
+            {
+              "id": "ch02-01",
+              "title": "第二章：毀滅的原型 (Archetype of Ruin) - Part 1: 接觸 (Contact)",
+              "sourceFile": "02_Chapter2_Part1.md",
+              "htmlFile": "ch02-01.html"
+            },
+            {
+              "id": "ch02-02",
+              "title": "第二章：毀滅的原型 (Archetype of Ruin) - Part 2: 機械浩劫 (Machine Crisis)",
+              "sourceFile": "02_Chapter2_Part2.md",
+              "htmlFile": "ch02-02.html"
+            },
+            {
+              "id": "ch02-03",
+              "title": "第二章：毀滅的原型 (Archetype of Ruin) - Part 3: 謊言 (The Lie)",
+              "sourceFile": "02_Chapter2_Part3.md",
+              "htmlFile": "ch02-03.html"
+            },
+            {
+              "id": "ch02-04",
+              "title": "第二章：毀滅的原型 (Archetype of Ruin) - Part 4: 座標 (Coordinates)",
+              "sourceFile": "02_Chapter2_Part4.md",
+              "htmlFile": "ch02-04.html"
+            },
+            {
+              "id": "ch03-01",
+              "title": "第三章：零點博弈 (Zero Sum Game) - Part 1: 解鎖 (Unlock)",
+              "sourceFile": "03_Chapter3_Part1.md",
+              "htmlFile": "ch03-01.html"
+            },
+            {
+              "id": "ch03-02",
+              "title": "第三章：零點博弈 (Zero Sum Game) - Part 2: 覺醒 (Awakening)",
+              "sourceFile": "03_Chapter3_Part2.md",
+              "htmlFile": "ch03-02.html"
+            },
+            {
+              "id": "ch03-03",
+              "title": "第三章：零點博弈 (Zero Sum Game) - Part 3: 對話 (Dialogue)",
+              "sourceFile": "03_Chapter3_Part3.md",
+              "htmlFile": "ch03-03.html"
+            },
+            {
+              "id": "ch03-04",
+              "title": "第三章：零點博弈 (Zero Sum Game) - Part 4: 覆寫 (Override)",
+              "sourceFile": "03_Chapter3_Part4.md",
+              "htmlFile": "ch03-04.html"
+            },
+            {
+              "id": "ch04-01",
+              "title": "第四章：甦醒 (Resurrection) - Part 1: 回歸 (Return)",
+              "sourceFile": "04_Chapter4_Part1.md",
+              "htmlFile": "ch04-01.html"
+            },
+            {
+              "id": "ch04-02",
+              "title": "第四章：甦醒 (Resurrection) - Part 2: 重逢 (Reunion)",
+              "sourceFile": "04_Chapter4_Part2.md",
+              "htmlFile": "ch04-02.html"
+            },
+            {
+              "id": "ch04-03",
+              "title": "第四章：甦醒 (Resurrection) - Part 3: 違和 (Dissonance)",
+              "sourceFile": "04_Chapter4_Part3.md",
+              "htmlFile": "ch04-03.html"
+            },
+            {
+              "id": "ch04-04",
+              "title": "第四章：甦醒 (Resurrection) - Part 4: 信標 (Beacon)",
+              "sourceFile": "04_Chapter4_Part4.md",
+              "htmlFile": "ch04-04.html"
+            },
+            {
+              "id": "ch05-01",
+              "title": "第五章：逃離雅典娜 (Escape from Athena) - Part 1: 圍剿 (Siege)",
+              "sourceFile": "05_Chapter5_Part1.md",
+              "htmlFile": "ch05-01.html"
+            },
+            {
+              "id": "ch05-02",
+              "title": "第五章：逃離雅典娜 (Escape from Athena) - Part 2: 突圍 (Breakout)",
+              "sourceFile": "05_Chapter5_Part2.md",
+              "htmlFile": "ch05-02.html"
+            },
+            {
+              "id": "ch05-03",
+              "title": "第五章：逃離雅典娜 (Escape from Athena) - Part 3: 告別 (Farewell)",
+              "sourceFile": "05_Chapter5_Part3.md",
+              "htmlFile": "ch05-03.html"
+            },
+            {
+              "id": "ch05-04",
+              "title": "第五章：逃離雅典娜 (Escape from Athena) - Part 4: 決斷 (Decision)",
+              "sourceFile": "05_Chapter5_Part4.md",
+              "htmlFile": "ch05-04.html"
+            },
+            {
+              "id": "epilogue",
+              "title": "終章：下潛 (The Descent)",
               "sourceFile": "Epilogue.md",
               "htmlFile": "epilogue.html"
             }
