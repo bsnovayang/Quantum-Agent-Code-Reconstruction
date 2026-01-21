@@ -46,7 +46,12 @@ const config = {
       sourceFolder: 'Phase_04_Genesis',
       volumeRange: [31, 99]
     }
-  ]
+  ],
+  // 作者資訊
+  author: {
+    name: 'Immortal Nova',
+    email: 'immortalnova@gmail.com'
+  }
 };
 
 // ===== 工具函數 =====
@@ -346,7 +351,7 @@ ${htmlContent}
 
   <footer class="footer">
     <p class="footer-title">QUANTUM AGENT</p>
-    <p>© 2026 機僕駭客：量子特務. All rights reserved.</p>
+    <p>© 2026 ${config.author.name}. All rights reserved.</p>
   </footer>
 
   <script src="../../../../js/reader.js"></script>
@@ -421,7 +426,7 @@ ${chaptersHtml}
 
   <footer class="footer">
     <p class="footer-title">QUANTUM AGENT</p>
-    <p>© 2026 機僕駭客：量子特務. All rights reserved.</p>
+    <p>© 2026 ${config.author.name}. All rights reserved.</p>
   </footer>
 
   <script src="../../../../js/reader.js"></script>
@@ -490,7 +495,7 @@ ${volumesHtml}
 
   <footer class="footer">
     <p class="footer-title">QUANTUM AGENT</p>
-    <p>© 2026 機僕駭客：量子特務. All rights reserved.</p>
+    <p>© 2026 ${config.author.name}. All rights reserved.</p>
   </footer>
 
   <script src="../../js/reader.js"></script>
@@ -585,11 +590,22 @@ function generateHomepage(phasesData) {
 ${activePhasesHtml}
       </div>
     </section>
+
+    <!-- 關於作者 -->
+    <section class="author-section" style="padding: 2rem; background: var(--bg-secondary); border-top: 1px solid var(--border-color); text-align: center; margin-top: 4rem;">
+      <h2 class="toc-header" style="justify-content: center;">關於作者</h2>
+      <div class="author-info">
+        <h3 class="author-name" style="color: var(--text-primary); margin-bottom: 0.5rem; font-size: 1.5rem;">${config.author.name}</h3>
+        <p class="author-contact" style="color: var(--text-secondary);">
+          <a href="mailto:${config.author.email}" style="color: var(--accent-color); text-decoration: none;">${config.author.email}</a>
+        </p>
+      </div>
+    </section>
   </main>
 
   <footer class="footer">
     <p class="footer-title">QUANTUM AGENT</p>
-    <p>© 2026 機僕駭客：量子特務. All rights reserved.</p>
+    <p>© 2026 ${config.author.name}. All rights reserved.</p>
   </footer>
 
   <script src="js/reader.js"></script>
