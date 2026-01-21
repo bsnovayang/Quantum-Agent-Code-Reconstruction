@@ -1,7 +1,7 @@
 {
   "title": "機僕駭客：量子特務",
   "subtitle": "Quantum Agent: Code Reconstruction",
-  "lastUpdated": "2026-01-20T08:53:51.321Z",
+  "lastUpdated": "2026-01-21T08:30:17.963Z",
   "phases": [
     {
       "id": "phase-01",
@@ -1059,6 +1059,157 @@
         }
       ],
       "sourceFolder": "Phase_01_Urban_Legend"
+    },
+    {
+      "id": "phase-02",
+      "title": "記憶迷宮篇",
+      "subtitle": "Memory Labyrinth",
+      "description": "艾倫開始察覺記憶的斷層",
+      "volumes": [
+        {
+          "id": "vol-08",
+          "num": 8,
+          "title": "The Memory Fracture",
+          "subtitle": "記憶的裂痕",
+          "description": "",
+          "sourceFolder": "Vol_08_The_Memory_Fracture",
+          "chapters": [
+            {
+              "id": "prologue",
+              "title": "序章：既視感 (Prologue: Deja Vu)",
+              "sourceFile": "00_Prologue.md",
+              "htmlFile": "prologue.html"
+            },
+            {
+              "id": "ch01-01",
+              "title": "第一章：熟悉的陌生人 (Familiar Stranger) - Part 1: 臨時營地的日常 (Daily Life in the Temporary Camp)",
+              "sourceFile": "01_Chapter1_Part1.md",
+              "htmlFile": "ch01-01.html"
+            },
+            {
+              "id": "ch01-02",
+              "title": "第一章：熟悉的陌生人 (Familiar Stranger) - Part 2: 遠端通訊 (Encrypted Call)",
+              "sourceFile": "01_Chapter1_Part2.md",
+              "htmlFile": "ch01-02.html"
+            },
+            {
+              "id": "ch01-03",
+              "title": "第一章：熟悉的陌生人 (Familiar Stranger) - Part 3: 深夜 (Midnight)",
+              "sourceFile": "01_Chapter1_Part3.md",
+              "htmlFile": "ch01-03.html"
+            },
+            {
+              "id": "ch01-04",
+              "title": "第一章：熟悉的陌生人 (Familiar Stranger) - Part 4: 市集的陰影 (Shadow in the Market)",
+              "sourceFile": "01_Chapter1_Part4.md",
+              "htmlFile": "ch01-04.html"
+            },
+            {
+              "id": "ch02-01",
+              "title": "第二章：幽靈的板機 (The Ghost Trigger) - Part 1: 新的委託 (The Commission)",
+              "sourceFile": "02_Chapter2_Part1.md",
+              "htmlFile": "ch02-01.html"
+            },
+            {
+              "id": "ch02-02",
+              "title": "第二章：幽靈的板機 (The Ghost Trigger) - Part 2: 現場勘查 (Crime Scene Analysis)",
+              "sourceFile": "02_Chapter2_Part2.md",
+              "htmlFile": "ch02-02.html"
+            },
+            {
+              "id": "ch02-03",
+              "title": "第二章：幽靈的板機 (The Ghost Trigger) - Part 3: 彈道幽靈 (Ballistic Ghost)",
+              "sourceFile": "02_Chapter2_Part3.md",
+              "htmlFile": "ch02-03.html"
+            },
+            {
+              "id": "ch02-04",
+              "title": "第二章：幽靈的板機 (The Ghost Trigger) - Part 4: 遭遇狙擊手 (The First Shot)",
+              "sourceFile": "02_Chapter2_Part4.md",
+              "htmlFile": "ch02-04.html"
+            },
+            {
+              "id": "ch03-01",
+              "title": "第三章：違背的原則 (Broken Rules) - Part 1: 違背的原則 (Broken Rules)",
+              "sourceFile": "03_Chapter3_Part1.md",
+              "htmlFile": "ch03-01.html"
+            },
+            {
+              "id": "ch03-02",
+              "title": "第三章：違背的原則 (Broken Rules) - Part 2: 無聲潛入 (Silent Approach)",
+              "sourceFile": "03_Chapter3_Part2.md",
+              "htmlFile": "ch03-02.html"
+            },
+            {
+              "id": "ch03-03",
+              "title": "第三章：違背的原則 (Broken Rules) - Part 3: 誘餌 (The Decoy)",
+              "sourceFile": "03_Chapter3_Part3.md",
+              "htmlFile": "ch03-03.html"
+            },
+            {
+              "id": "ch03-04",
+              "title": "第三章：違背的原則 (Broken Rules) - Part 4: 牢籠 (The Cage)",
+              "sourceFile": "03_Chapter3_Part4.md",
+              "htmlFile": "ch03-04.html"
+            },
+            {
+              "id": "ch04-01",
+              "title": "第四章：邏輯覆寫 (Logic Override) - Part 1: 絕境 (Despair)",
+              "sourceFile": "04_Chapter4_Part1.md",
+              "htmlFile": "ch04-01.html"
+            },
+            {
+              "id": "ch04-02",
+              "title": "第四章：邏輯覆寫 (Logic Override) - Part 2: 強制覺醒 (Forced Awakening)",
+              "sourceFile": "04_Chapter4_Part2.md",
+              "htmlFile": "ch04-02.html"
+            },
+            {
+              "id": "ch04-03",
+              "title": "第四章：邏輯覆寫 (Logic Override) - Part 3: 代價 (The Price)",
+              "sourceFile": "04_Chapter4_Part3.md",
+              "htmlFile": "ch04-03.html"
+            },
+            {
+              "id": "ch04-04",
+              "title": "第四章：邏輯覆寫 (Logic Override) - Part 4: 空洞的勝利 (Hollow Victory)",
+              "sourceFile": "04_Chapter4_Part4.md",
+              "htmlFile": "ch04-04.html"
+            },
+            {
+              "id": "ch05-01",
+              "title": "第五章：來自深淵的邀請 (Invitation from the Abyss) - Part 1: 反殺 (Counterattack)",
+              "sourceFile": "05_Chapter5_Part1.md",
+              "htmlFile": "ch05-01.html"
+            },
+            {
+              "id": "ch05-02",
+              "title": "第五章：來自深淵的邀請 (Invitation from the Abyss) - Part 2: 最後的遺言 (Last Words)",
+              "sourceFile": "05_Chapter5_Part2.md",
+              "htmlFile": "ch05-02.html"
+            },
+            {
+              "id": "ch05-03",
+              "title": "第五章：來自深淵的邀請 (Invitation from the Abyss) - Part 3: 地圖 (The Map)",
+              "sourceFile": "05_Chapter5_Part3.md",
+              "htmlFile": "ch05-03.html"
+            },
+            {
+              "id": "ch05-04",
+              "title": "第五章：來自深淵的邀請 (Invitation from the Abyss) - Part 4: 真相 (The Truth)",
+              "sourceFile": "05_Chapter5_Part4.md",
+              "htmlFile": "ch05-04.html"
+            },
+            {
+              "id": "epilogue",
+              "title": "終章：向下 (Downward)",
+              "sourceFile": "Epilogue.md",
+              "htmlFile": "epilogue.html"
+            }
+          ]
+        }
+      ],
+      "sourceFolder": "Phase_02_Memory_Labyrinth"
     }
   ]
 }

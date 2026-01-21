@@ -248,7 +248,8 @@ function getVolumeSubtitle(englishTitle) {
     'Steel Lullaby': '鋼鐵搖籃曲',
     'The Fake Expo': '虛假的博覽會',
     'Hunting the Phantom': '獵殺幽靈',
-    'Protocol Zero': '零點協議'
+    'Protocol Zero': '零點協議',
+    'The Memory Fracture': '記憶的裂痕'
   };
   return subtitles[englishTitle] || '';
 }
