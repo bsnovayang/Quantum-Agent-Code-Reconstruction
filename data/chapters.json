@@ -1,7 +1,7 @@
 {
   "title": "機僕駭客：量子特務",
   "subtitle": "Quantum Agent: Code Reconstruction",
-  "lastUpdated": "2026-01-21T08:46:59.920Z",
+  "lastUpdated": "2026-01-23T01:13:29.872Z",
   "phases": [
     {
       "id": "phase-01",
@@ -332,10 +332,10 @@
         {
           "id": "vol-03",
           "num": 3,
-          "title": "The Non Existent Floor",
+          "title": "The Non-Existent Floor",
           "subtitle": "不存在的樓層",
           "description": "",
-          "sourceFolder": "Vol_03_The_Non_Existent_Floor",
+          "sourceFolder": "Vol_03_The_Non-Existent_Floor",
           "chapters": [
             {
               "id": "prologue",

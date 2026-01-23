@@ -164,6 +164,9 @@ function scanPhase(phaseConfig) {
       // 簡單取第一段非標題文字作為描述
     }
 
+    // 跳過沒有章節的卷 (例如 Vol.09)
+    if (chapters.length === 0) continue;
+
     volumes.push({
       id: volInfo.id,
       num: volInfo.num,
@@ -249,7 +252,7 @@ function getVolumeSubtitle(englishTitle) {
   const subtitles = {
     'Ghost Signal': '幽靈訊號',
     'Memory Vendor': '記憶販賣者',
-    'The Non Existent Floor': '不存在的樓層',
+    'The Non-Existent Floor': '不存在的樓層',
     'Steel Lullaby': '鋼鐵搖籃曲',
     'The Fake Expo': '虛假的博覽會',
     'Hunting the Phantom': '獵殺幽靈',
